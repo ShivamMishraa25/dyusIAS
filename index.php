@@ -3,15 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tags for SEO -->
+    <meta name="title" content="DYUS IAS Coaching Institute">
+    <meta name="description" content="Website for DYUS IAS Coaching Intitute, Kannauj, Uttar Pradesh, India">
+    <meta name="author" content="Shivam Mishra">
+    <meta name="keywords" content="DYUS IAS, IAS, PCS, UPSC, Civil Services, Prelims, UPSC Coaching, tution, Drishti, Sanskriti, Kannauj, Kannoj, dyus ias coaching classes">
+    <meta property="og:image" itemprop="image" content="img/og.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!--favicon can be used for SEO-->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <script defer src="js/lang.js"></script>
     <title>DYUS IAS</title>
 </head>
 <body>
 <!-- NAVIGATION -->
     <nav>
-        <a href="/" class="logo"><img src="img/logo.png" alt="DYUS IAS"></a>
+        <a href="/" class="logo"><img src="img/dyusName.png" alt="DYUS IAS"></a>
         <ul class="nav-links">
             <li><a href="#" id="nav-home">Home</a></li>
             <li><a href="#" id="nav-about">About</a></li>
@@ -40,7 +51,7 @@
                 </div>
             </div>
             <figure class="hero-img">
-                <img src="img/hero.avif" alt="hero img">
+                <img src="img/logo.png" alt="hero img">
             </figure>
         </div>
     </header>
@@ -225,14 +236,14 @@
         </section>
 
         <section id="register" class="register-section">
-            <h2 class="section-title">Register Now</h2>
-            <p class="section-description">Fill out the form below to register for our courses or request more information</p>
+            <h2 class="register-title">Register Now</h2>
+            <p class="register-description">Fill out the form below to register for our courses or request more information</p>
             <form class="register-form">
                 <input type="text" placeholder="Full Name" required>
                 <input type="email" placeholder="Email Address" required>
                 <input type="tel" placeholder="Phone Number" required>
                 <textarea placeholder="Your Message" rows="4"></textarea>
-                <button type="submit" class="register-btn">Submit Registration</button>
+                <button type="submit" class="submit-register">Submit Registration</button>
             </form>
         </section>
 
@@ -311,6 +322,6 @@
         </div>
     </footer>
 
-    
+    <script defer src="js/lang.js"></script>
 </body>
 </html>

@@ -35,6 +35,12 @@ nav {
     top: 0;
 }
 
+nav a img {
+    height: 2.2rem;
+    position: absolute;
+    top: 8px;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -98,6 +104,10 @@ nav {
     z-index: 2;
     max-width: 800px;
     padding: 20px;
+}
+
+.hero-content img {
+    height: 4em;
 }
 
 .hero h1 {
@@ -276,7 +286,6 @@ nav {
 .courses-section {
     padding: 40px 20px;
     background-color: #f9f9f9;
-    overflow-y: auto;
     max-height: 600px;
 }
 
@@ -616,6 +625,7 @@ nav {
     padding: 60px 20px;
     background-color: #f9f9f9;
     text-align: center;
+    background-color: #2e467e;
 }
 
 .register-form {
@@ -650,7 +660,7 @@ nav {
     outline: none;
 }
 
-.register-btn {
+.submit-register {
     flex: 1 1 100%;
     background-color: #ff6b6b;
     color: #fff;
@@ -662,7 +672,7 @@ nav {
     transition: background-color 0.3s ease;
 }
 
-.register-btn:hover {
+.submit-register:hover {
     background-color: #e05555;
 }
 
@@ -683,4 +693,17 @@ nav {
 
 .register-form a:hover {
     text-decoration: underline;
+}
+
+.register-title {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.register-description {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 30px;
 }
