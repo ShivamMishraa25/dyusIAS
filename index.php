@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script defer src="js/lang.js"></script>
     <title>DYUS IAS</title>
 </head>
@@ -141,17 +142,18 @@
                     </div>
                 </div>
             </div>
-            <div class="section-buttons">
-                <a href="#courses" class="view-all-btn">View All Courses</a>
-            </div>
+            
         </section>
+        <div class="section-buttons">
+            <a href="#courses" class="view-all-btn">View All Courses</a>
+        </div>
         <!-- FACULTLY -->
         <section id="faculty" class="faculty-section">
             <h2 class="section-title">Our Expert Faculty</h2>
             <p class="section-description">Learn from experienced educators and civil servants who guide you through every step.</p>
             <div class="faculty-container">
                 <div class="faculty-card">
-                    <img src="img/faculty1.jpg" alt="Dr. Rajesh Sharma">
+                    <img src="img/logo.jpeg" alt="Dr. Rajesh Sharma">
                     <h3>Dr. Rajesh Sharma</h3>
                     <p>General Studies & Public Administration</p>
                     <p>Former IAS officer with 15+ years of teaching experience</p>
@@ -183,11 +185,22 @@
                         <a href="#"><i class="fas fa-envelope"></i></a>
                     </div>
                 </div>
+                <div class="faculty-card">
+                    <img src="img/logo.jpeg" alt="Dr. Rajesh Sharma">
+                    <h3>Dr. Rajesh Sharma</h3>
+                    <p>General Studies & Public Administration</p>
+                    <p>Former IAS officer with 15+ years of teaching experience</p>
+                    <div class="faculty-links">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="section-buttons">
+                <a href="#faculty" class="meet-all-btn">Meet All Faculty</a>
             </div>
         </section>
-        <div class="section-buttons">
-                <a href="#faculty" class="meet-all-btn">Meet All Faculty</a>
-        </div>
         <section id="announcements">
 
         </section>
