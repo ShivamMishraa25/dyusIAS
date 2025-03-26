@@ -1,0 +1,484 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2e467e;
+    color: #fff;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdffff;
+    color: #242825;
+    padding: 10px;
+    z-index: 1000;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.nav-links li a {
+    color: #242825;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.language-switch {
+    color: #fff;
+    background-color: #2e467e;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register-btn {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero {
+    position: relative;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: start;
+    color: #fff;
+}
+
+.hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.2;
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero h1 span {
+    color: #fec802;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+}
+
+.hero-buttons a {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.register-btn2 {
+    background-color: #fff;
+    color: #2e467e;
+}
+
+.explore-btn {
+    background-color: #ff6b6b;
+    color: #fff;
+}
+
+.register-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero-img {
+    padding: 20px;
+    z-index: 2;
+}
+
+.hero-img img {
+    border-radius: 8px;
+    height: 24em;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    gap: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 2rem;
+    color: #2e467e;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.about-section {
+    padding: 60px 20px;
+    background-color: #fff;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    color: #2e467e;
+    margin-bottom: 10px;
+}
+
+.underline {
+    width: 50px;
+    height: 4px;
+    background-color: #fec802;
+    margin-bottom: 20px;
+}
+
+.about-content h3 {
+    font-size: 1.5rem;
+    color: #2e467e;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.about-features {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.about-features li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.about-features li span {
+    color: #ff6b6b;
+    font-size: 1.2rem;
+}
+
+.about-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #2e467e;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.about-btn:hover {
+    background-color: #1d3557;
+}
+
+.courses-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+    max-height: 600px;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #2e467e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.courses-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 500px;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+.course-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.course-card h3 {
+    font-size: 1.5rem;
+    color: #2e467e;
+    margin-bottom: 10px;
+}
+
+.course-duration {
+    background-color: #fec802;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.course-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.course-features li {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.course-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.course-price {
+    font-size: 1.2rem;
+    color: #2e467e;
+    font-weight: bold;
+}
+
+.course-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.enroll-btn {
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.enroll-btn:hover {
+    background-color: #e05555;
+}
+
+.details-btn {
+    background-color: #fff;
+    color: #2e467e;
+    padding: 8px 15px;
+    border: 1px solid #2e467e;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.details-btn:hover {
+    background-color: #f4f4f4;
+}
+
+.faculty-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #2e467e;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.faculty-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.faculty-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.faculty-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.faculty-card h3 {
+    font-size: 1.2rem;
+    color: #2e467e;
+    margin-bottom: 5px;
+}
+
+.faculty-card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.faculty-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.faculty-links a {
+    color: #2e467e;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.faculty-links a:hover {
+    color: #ff6b6b;
+}
+
+.section-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.view-all-btn, .meet-all-btn {
+    background-color: #2e467e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.view-all-btn:hover, .meet-all-btn:hover {
+    background-color: #1d3557;
+}
