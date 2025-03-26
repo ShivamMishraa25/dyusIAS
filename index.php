@@ -201,15 +201,114 @@
                 <a href="#faculty" class="meet-all-btn">Meet All Faculty</a>
             </div>
         </section>
-        <section id="announcements">
-
+        <section id="announcements" class="announcements-section">
+            <h2 class="section-title">Latest Announcements</h2>
+            <p class="section-description">Stay updated with the latest news, events, and offers from DYUS IAS</p>
+            <div class="announcements-container">
+                <div class="announcement-card">
+                    <h3>New Optional Subject Courses</h3>
+                    <p>We are launching specialized courses for optional subjects including Sociology, Political Science, and Geography starting next month.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+                <div class="announcement-card">
+                    <h3>Early Bird Discount</h3>
+                    <p>Register before June 30 for our comprehensive courses and get 15% off on the total fee. Limited seats available.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+                <div class="announcement-card">
+                    <h3>UPSC 2022 Results</h3>
+                    <p>Congratulations to our 75 students who have successfully cleared the UPSC Civil Services Examination 2022, with 12 ranks in the top 100.</p>
+                    <a href="#" class="read-more">Read More →</a>
+                </div>
+            </div>
+            <a href="#" class="view-all-btn">View All Announcements</a>
         </section>
-        <section id="contact">
 
+        <section id="register" class="register-section">
+            <h2 class="section-title">Register Now</h2>
+            <p class="section-description">Fill out the form below to register for our courses or request more information</p>
+            <form class="register-form">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number" required>
+                <textarea placeholder="Your Message" rows="4"></textarea>
+                <button type="submit" class="register-btn">Submit Registration</button>
+            </form>
+        </section>
+
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Contact Us</h2>
+            <p class="section-description">Have questions? Get in touch with us for any inquiries or support</p>
+            <div class="contact-container">
+                <div class="contact-card">
+                    <h3>Visit Us</h3>
+                    <p>123 Education Lane, Civil Services Road, New Delhi - 110001, India</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Call Us</h3>
+                    <p>Admissions: +91 98765 43210</p>
+                    <p>Support: +91 98765 43211</p>
+                    <p>Office: +91 011-2345-6789</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Email Us</h3>
+                    <p>Admissions: admissions@dyusias.com</p>
+                    <p>Support: support@dyusias.com</p>
+                    <p>General: info@dyusias.com</p>
+                </div>
+            </div>
+            <div class="google-map">
+                <p>Interactive Google Map would be embedded here</p>
+            </div>
         </section>
     </main>
-    <footer>
-        <!-- Add footer content here -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-about">
+                <h3>DYUS IAS</h3>
+                <p>Empowering aspirants to achieve their dreams of joining civil services since 2003.</p>
+                <div class="footer-socials">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#faculty">Faculty</a></li>
+                    <li><a href="#register">Register Now</a></li>
+                </ul>
+            </div>
+            <div class="footer-courses">
+                <h3>Courses</h3>
+                <ul>
+                    <li><a href="#">Comprehensive IAS Program</a></li>
+                    <li><a href="#">Prelims Foundation Course</a></li>
+                    <li><a href="#">Mains Answer Writing Program</a></li>
+                    <li><a href="#">Optional Subjects</a></li>
+                    <li><a href="#">Interview Guidance</a></li>
+                </ul>
+            </div>
+            <div class="footer-support">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 DYUS IAS Coaching Institute. All Rights Reserved.</p>
+        </div>
     </footer>
 
     

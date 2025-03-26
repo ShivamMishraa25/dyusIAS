@@ -482,3 +482,205 @@ nav {
 .view-all-btn:hover, .meet-all-btn:hover {
     background-color: #1d3557;
 }
+
+.announcements-section, .register-section, .contact-section {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.announcements-container, .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.announcement-card, .contact-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.announcement-card h3, .contact-card h3 {
+    font-size: 1.2rem;
+    color: #2e467e;
+    margin-bottom: 10px;
+}
+
+.announcement-card p, .contact-card p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.read-more {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.register-form input, .register-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.google-map {
+    margin-top: 20px;
+    padding: 40px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    text-align: center;
+    color: #555;
+}
+
+.footer-section {
+    background-color: #2e467e;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-container h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.footer-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-container ul li {
+    margin-bottom: 5px;
+}
+
+.footer-container ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-container ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-socials {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer-socials a {
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+    color: #ff6b6b;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.register-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.register-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.register-form input, .register-form textarea {
+    flex: 1 1 calc(50% - 20px);
+    padding: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: #f4f4f4;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.register-form textarea {
+    flex: 1 1 100%;
+}
+
+.register-form input:focus, .register-form textarea:focus {
+    background-color: #fff;
+    border-color: #2e467e;
+    outline: none;
+}
+
+.register-btn {
+    flex: 1 1 100%;
+    background-color: #ff6b6b;
+    color: #fff;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-btn:hover {
+    background-color: #e05555;
+}
+
+.register-section .section-description {
+    margin-bottom: 30px;
+    font-size: 1rem;
+    color: #555;
+}
+
+.register-form a {
+    text-align: left;
+    font-size: 0.9rem;
+    color: #2e467e;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.register-form a:hover {
+    text-decoration: underline;
+}
