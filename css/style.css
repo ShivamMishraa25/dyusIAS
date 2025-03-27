@@ -207,6 +207,19 @@ nav a img {
     .card p {
         font-size: 0.9rem;
     }
+
+    header figure {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        width: fit-content;
+    }
 }
 
 .about-section {
