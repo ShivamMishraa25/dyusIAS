@@ -37,6 +37,7 @@ nav {
     z-index: 1000;
     position: sticky;
     top: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Border shadow added */
 }
 
 nav a img {
@@ -64,6 +65,11 @@ nav a img {
     font-size: 1rem;
 }
 
+.nav-links li a:hover {
+    color: #ff6b6b; /* Change text color on hover */
+    transition: color 0.3s ease;
+}
+
 .language-switch {
     color: #fff;
     background-color: #2e467e;
@@ -73,6 +79,11 @@ nav a img {
     cursor: pointer;
 }
 
+.language-switch:hover {
+    background-color: #1d3557; /* Darker shade on hover */
+    transition: background-color 0.3s ease;
+}
+
 .register-btn {
     background-color: #ff6b6b;
     color: #fff;
@@ -80,6 +91,11 @@ nav a img {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.register-btn:hover {
+    background-color: #e05555; /* Darker red on hover */
+    transition: background-color 0.3s ease;
 }
 
 .hero {
@@ -144,6 +160,11 @@ nav a img {
     cursor: pointer;
 }
 
+.hero-buttons a:hover {
+    opacity: 0.8; /* Slight transparency on hover */
+    transition: opacity 0.3s ease;
+}
+
 .register-btn2 {
     background-color: #fff;
     color: #2e467e;
@@ -187,6 +208,12 @@ nav a img {
     border-radius: 8px;
     padding: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card h2 {
@@ -308,7 +335,8 @@ nav a img {
 }
 
 .about-btn:hover {
-    background-color: #1d3557;
+    background-color: #ff6b6b; /* Change to red on hover */
+    transition: background-color 0.3s ease;
 }
 
 .courses-section {
@@ -409,7 +437,8 @@ nav a img {
 }
 
 .enroll-btn:hover {
-    background-color: #e05555;
+    background-color: #e05555; /* Darker red on hover */
+    transition: background-color 0.3s ease;
 }
 
 .details-btn {
@@ -424,7 +453,9 @@ nav a img {
 }
 
 .details-btn:hover {
-    background-color: #f4f4f4;
+    background-color: #2e467e; /* Change to blue on hover */
+    color: #fff; /* Change text color to white */
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .faculty-section {
@@ -497,7 +528,8 @@ nav a img {
 }
 
 .faculty-links a:hover {
-    color: #ff6b6b;
+    color: #ff6b6b; /* Change icon color on hover */
+    transition: color 0.3s ease;
 }
 
 .section-buttons {
@@ -519,7 +551,8 @@ nav a img {
 }
 
 .view-all-btn:hover, .meet-all-btn:hover {
-    background-color: #1d3557;
+    background-color: #ff6b6b; /* Change to red on hover */
+    transition: background-color 0.3s ease;
 }
 
 .announcements-section, .register-section, .contact-section {
@@ -564,7 +597,9 @@ nav a img {
 }
 
 .read-more:hover {
+    color: #2e467e; /* Change text color on hover */
     text-decoration: underline;
+    transition: color 0.3s ease;
 }
 
 .register-form {
@@ -721,7 +756,8 @@ nav a img {
 }
 
 .submit-register:hover {
-    background-color: #e05555;
+    background-color: #e05555; /* Darker red on hover */
+    transition: background-color 0.3s ease;
 }
 
 .register-section .section-description {
@@ -824,7 +860,8 @@ nav a img {
 }
 
 .submit-call:hover {
-    background-color: #e05555;
+    background-color: #e05555; /* Darker red on hover */
+    transition: background-color 0.3s ease;
 }
 
 /* Show the form when the call icon is clicked */
