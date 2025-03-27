@@ -19,18 +19,19 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <title>DYUS IAS</title>
+    <script defer src="js/call.js"></script>
 </head>
 <body>
 <!-- NAVIGATION -->
     <nav>
         <a href="/" class="logo"><img src="img/dyusName.png" alt="DYUS IAS"></a>
         <ul class="nav-links">
-            <li><a href="#" id="nav-home">Home</a></li>
-            <li><a href="#" id="nav-about">About</a></li>
-            <li><a href="#" id="nav-courses">Courses</a></li>
-            <li><a href="#" id="nav-faculty">Faculty</a></li>
-            <li><a href="#" id="nav-announcements">Announcements</a></li>
-            <li><a href="#" id="nav-contact">Contact</a></li>
+            <li><a href="#home" id="nav-home">Home</a></li>
+            <li><a href="#about" id="nav-about">About</a></li>
+            <li><a href="#courses" id="nav-courses">Courses</a></li>
+            <li><a href="#faculty" id="nav-faculty">Faculty</a></li>
+            <li><a href="#announcements" id="nav-announcements">Announcements</a></li>
+            <li><a href="#contact" id="nav-contact">Contact</a></li>
         </ul>
         <div class="lang-reg">
             <button class="language-switch">हिन्दी</button>
@@ -38,7 +39,7 @@
         </div>
     </nav>
 <!-- HEADER AND HERO -->
-    <header>
+    <header id="home" class="header">
         <div class="hero">
             <div class="hero-bg">
                 <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80" alt="Background" class="hero-image">
@@ -101,6 +102,7 @@
         <!-- COURSES -->
         <section id="courses" class="courses-section">
             <h2 class="section-title">Our Courses</h2>
+            <p class="section-description">Comprehensive programs designed to help you excel Civil Services Examinations.</p>
             <div class="courses-container">
                 <div class="course-card">
                     <h3>Mains Answer Writing Program</h3>
@@ -114,7 +116,7 @@
                     <div class="course-footer">
                         <span class="course-price">₹85,000</span>
                         <div class="course-actions">
-                            <a href="#enroll" class="enroll-btn">Enroll Now</a>
+                            <a href="#register" class="enroll-btn">Enroll Now</a>
                             <a href="#details" class="details-btn">Details</a>
                         </div>
                     </div>
@@ -131,7 +133,7 @@
                     <div class="course-footer">
                         <span class="course-price">₹50,000</span>
                         <div class="course-actions">
-                            <a href="#enroll" class="enroll-btn">Enroll Now</a>
+                            <a href="#register" class="enroll-btn">Enroll Now</a>
                             <a href="#details" class="details-btn">Details</a>
                         </div>
                     </div>
@@ -148,7 +150,7 @@
                     <div class="course-footer">
                         <span class="course-price">₹25,000</span>
                         <div class="course-actions">
-                            <a href="#enroll" class="enroll-btn">Enroll Now</a>
+                            <a href="#register" class="enroll-btn">Enroll Now</a>
                             <a href="#details" class="details-btn">Details</a>
                         </div>
                     </div>
@@ -233,7 +235,9 @@
                     <a href="#" class="read-more">Read More →</a>
                 </div>
             </div>
-            <a href="#" class="view-all-btn">View All Announcements</a>
+            <div class="section-buttons">
+                <a href="pages/announcements.php" class="view-all-btn">View All Announcements</a>
+            </div>
         </section>
 
         <section id="register" class="register-section">
@@ -300,11 +304,11 @@
             <div class="footer-courses">
                 <h3>Courses</h3>
                 <ul>
-                    <li><a href="#">Comprehensive IAS Program</a></li>
-                    <li><a href="#">Prelims Foundation Course</a></li>
-                    <li><a href="#">Mains Answer Writing Program</a></li>
-                    <li><a href="#">Optional Subjects</a></li>
-                    <li><a href="#">Interview Guidance</a></li>
+                    <li><a href="pages/announcements.php">Comprehensive IAS Program</a></li>
+                    <li><a href="pages/announcements.php">Prelims Foundation Course</a></li>
+                    <li><a href="pages/announcements.php">Mains Answer Writing Program</a></li>
+                    <li><a href="pages/announcements.php">Optional Subjects</a></li>
+                    <li><a href="pages/announcements.php">Interview Guidance</a></li>
                 </ul>
             </div>
             <div class="footer-support">
@@ -323,6 +327,20 @@
         </div>
     </footer>
 
+    <script defer src="js/lang.js"></script> 
+    <div class="floating-call">
+        <button class="call-icon">
+            <i class="fas fa-phone-alt"></i>
+        </button>
+        <div class="call-form">
+            <h3>Get a Call from Us</h3>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="tel" placeholder="Phone Number or Email" required>
+                <button type="submit" class="submit-call">Request Call</button>
+            </form>
+        </div>
+    </div>
     <script defer src="js/lang.js"></script>
 </body>
 </html>
