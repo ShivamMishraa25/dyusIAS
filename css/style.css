@@ -171,26 +171,24 @@ nav a img {
 }
 
 .cards-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
     padding: 40px 20px;
     background-color: #f9f9f9;
-    gap: 20px;
+    text-align: center;
 }
 
 .card {
     background-color: #fff;
     border: 1px solid #e0e0e0;
     border-radius: 8px;
-    text-align: center;
     padding: 20px;
-    width: 200px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .card h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #2e467e;
     margin-bottom: 10px;
 }
@@ -198,6 +196,17 @@ nav a img {
 .card p {
     font-size: 1rem;
     color: #555;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card h2 {
+        font-size: 1.5rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
 }
 
 .about-section {
