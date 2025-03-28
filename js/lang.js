@@ -37,7 +37,14 @@ const translations = {
         announcements_title: "Latest Announcements",
         announcements_description: "Stay updated with the latest news, events, and offers from DYUS IAS.",
         contact_title: "Contact Us",
-        contact_description: "Have questions? Get in touch with us for any inquiries or support."
+        contact_description: "Have questions? Get in touch with us for any inquiries or support.",
+        registerTitle: "Register Now",
+        registerDescription: "Fill out the form below to register for our courses or request more information",
+        registerName: "Full Name",
+        registerEmail: "Email Address",
+        registerPhone: "Phone Number",
+        registerMessage: "Your Message",
+        registerSubmit: "Submit Registration"
     },
     hi: {
         home: "होम",
@@ -77,7 +84,14 @@ const translations = {
         announcements_title: "नवीनतम घोषणाएँ",
         announcements_description: "द्युस आईएएस से नवीनतम समाचार, कार्यक्रम और ऑफ़र के साथ अपडेट रहें।",
         contact_title: "संपर्क करें",
-        contact_description: "क्या आपके पास प्रश्न हैं? किसी भी पूछताछ या सहायता के लिए हमसे संपर्क करें।"
+        contact_description: "क्या आपके पास प्रश्न हैं? किसी भी पूछताछ या सहायता के लिए हमसे संपर्क करें।",
+        registerTitle: "अभी पंजीकरण करें",
+        registerDescription: "हमारे पाठ्यक्रमों के लिए पंजीकरण करने या अधिक जानकारी का अनुरोध करने के लिए नीचे दिया गया फॉर्म भरें",
+        registerName: "पूरा नाम",
+        registerEmail: "ईमेल पता",
+        registerPhone: "फोन नंबर",
+        registerMessage: "आपका संदेश",
+        registerSubmit: "पंजीकरण सबमिट करें"
     }
 };
 
@@ -117,6 +131,15 @@ function setLanguage(lang) {
     document.getElementById("announcements-description").innerText = translations[lang].announcements_description;
     document.getElementById("contact-title").innerText = translations[lang].contact_title;
     document.getElementById("contact-description").innerText = translations[lang].contact_description;
+
+    // Register section translations
+    document.getElementById("register-title").innerText = translations[lang].registerTitle;
+    document.getElementById("register-description").innerText = translations[lang].registerDescription;
+    document.getElementById("register-name").placeholder = translations[lang].registerName;
+    document.getElementById("register-email").placeholder = translations[lang].registerEmail;
+    document.getElementById("register-phone").placeholder = translations[lang].registerPhone;
+    document.getElementById("register-message").placeholder = translations[lang].registerMessage;
+    document.getElementById("register-submit").innerText = translations[lang].registerSubmit;
 
     const aboutFeatures = document.querySelectorAll(".about-features li");
     translations[lang].about_features.forEach((feature, index) => {
