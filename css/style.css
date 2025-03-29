@@ -916,11 +916,6 @@ nav a img {
         z-index: 1100;
     }
 
-    .faculty-card {
-        flex: 1 1 calc(50% - 20px); /* Two cards per row on small screens */
-        max-width: calc(50% - 20px);
-        box-sizing: border-box;
-    }
 }
 
 .why-choose-section {
