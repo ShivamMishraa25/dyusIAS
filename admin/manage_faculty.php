@@ -77,5 +77,7 @@ include_once dirname(__DIR__, 2) . '/config.php';
             ?>
         </tbody>
     </table>
+
+    <a href="index.php">Back to Dashboard</a>
 </body>
 </html>
